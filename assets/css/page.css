@@ -1,0 +1,61 @@
+.header{
+    height: 60px;   
+}
+
+.banner-page{
+    margin-top: -60px;
+    position: relative;
+    margin-bottom: 20px;  
+}
+
+.banner-page img{
+    height: 50px;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(min-width:480px){
+    .banner-page img{
+        height: 80px;        
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(min-width:1024px){
+    .banner-page img{
+        height: 170px;        
+    }
+
+}
+
+
+
+
+
