@@ -44,7 +44,8 @@ body{
 
 
 .header{
-    height: 60px;
+    height: 60px;    
+    background: #fff;
 }
 
 .logo{ 
@@ -55,11 +56,14 @@ body{
 
 .logo img{
     width: 40%;
+    margin: 5px 0 0 0;
 }
 
 .header .conteudo{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between;    
+    position: fixed;
+    z-index: 100;    
 }
 
 .icon-menu{
@@ -124,7 +128,7 @@ body{
 
 
 .banner{
-    margin-top: -60px;
+    margin-top: 0px;
     position: relative;
     margin-bottom: 20px;
 }
@@ -277,7 +281,10 @@ body{
     font-weight: 400;
 }
 
-
+.nos{
+    background: rgba(0,0,0,0.4);
+    padding: 20px;
+}
 
 
 
@@ -287,7 +294,7 @@ body{
 
 
 .trabalhos{
-    margin: 15px 0 0 0;
+    margin: 15px 0 50px 0;
     padding: 50px 0 20px 0;
 }
 
@@ -312,17 +319,18 @@ body{
 
 .trabalhos img{
     margin: auto;
-    opacity: 0.8;
+    /*opacity: 0.8;*/
 }
 
 .trabalhos img:hover{
-    opacity: 1; 
+    /*opacity: 1;*/ 
 }
 
 .trabalhos ul{
     list-style: none; 
     margin: 10px 0 15px 0; 
     padding: 0;
+    min-height: 230px;
 }
 
 .trabalhos ul li{
@@ -547,8 +555,41 @@ body{
 
 
 
-
+/*********************************************************************************/
 @media(min-width:1024px){
+    
+    
+    
+    
+    
+    
+
+
+    
+    
+    
+    
+    
+    
+    header{
+        background: #fff;
+        float: left;
+        width: 100%;
+    }
+    .header .conteudo{
+        
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#306b8a+4,fdd84a+14,fdd84a+17,fdd84a+25,ffffff+47 */
+        background: #306b8a; /* Old browsers */
+        background: -moz-linear-gradient(left,  #306b8a 4%, #fdd84a 14%, #fdd84a 17%, #fdd84a 25%, #ffffff 47%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(left,  #306b8a 4%,#fdd84a 14%,#fdd84a 17%,#fdd84a 25%,#ffffff 47%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to right,  #306b8a 4%,#fdd84a 14%,#fdd84a 17%,#fdd84a 25%,#ffffff 47%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#306b8a', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 */
+
+
+        /*background: rgba(255,255,255,0.9);*/
+        float: left;
+        width: 100%;
+    }
     .logo{
         margin: 30px 0 0 40px;
         width: 200px;
@@ -556,6 +597,7 @@ body{
     
     .logo img{
         width: 100%;
+        margin: -18px 0 15px 0;
     }
     
     .nav{
@@ -570,13 +612,13 @@ body{
     
     .menu{
         display: flex;
-        margin: 0 40px 0 0;
+        margin: -16px 40px 0 0 !important;
     }    
     
 
     .menu li a{
         background: none;        
-        color: #fff;        
+        color: #306B8A;        
         padding: 15px 20px;        
         text-decoration: none;       
         border-bottom: none;
@@ -587,7 +629,19 @@ body{
         border-bottom: 1px solid #FDD122;        
         transition: all 0.4s;
         text-decoration: none;
+    } 
+    
+    .sobre{
+        max-height: 650px;    
+        background: url(assets/images/temp/11.jpg) top center no-repeat fixed;
+        padding: 50px 0;
     }
+    
+    .sobre img{        
+        margin: -50px 0 0 0;
+    }
+    
+
     
     .chamada-block a{
         width: 450px;
