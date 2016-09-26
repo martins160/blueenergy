@@ -44,8 +44,23 @@ body{
 
 
 .header{
-    height: 60px;    
+    height: 50px;    
     background: #fff;
+}
+
+ .header .conteudo{
+        
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#306b8a+4,fdd84a+14,fdd84a+17,fdd84a+25,ffffff+47 */
+    background: #306b8a; /* Old browsers */
+    background: -moz-linear-gradient(left,  #306b8a 4%, #fdd84a 14%, #fdd84a 17%, #fdd84a 25%, #ffffff 47%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  #306b8a 4%,#fdd84a 14%,#fdd84a 17%,#fdd84a 25%,#ffffff 47%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  #306b8a 4%,#fdd84a 14%,#fdd84a 17%,#fdd84a 25%,#ffffff 47%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#306b8a', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 */
+
+
+    /*background: rgba(255,255,255,0.9);*/
+    float: left;
+    width: 100%;
 }
 
 .logo{ 
@@ -609,6 +624,7 @@ body{
         float: left;
         width: 100%;
     }
+    
     .logo{
         margin: 30px 0 0 40px;
         width: 200px;
