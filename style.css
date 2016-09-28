@@ -666,6 +666,10 @@ body{
 @media(min-width:1024px){ 
     
     
+    .fone-mail{
+        display: block;
+    }
+    
     
     header{
         background: #fff;
@@ -718,6 +722,7 @@ body{
         top: 10px;
         color: #306B8A;
         font-weight: 300;
+        display: block;
     }
     
 
