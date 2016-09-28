@@ -703,8 +703,16 @@ body{
     
     .menu{
         display: flex;
-        margin: -20px 50px 0 0 !important;
+        margin: -20px 50px 0 0 !important;       
     }    
+    
+    .fone-mail{
+        position: absolute;
+        right: 70px;
+        top: 10px;
+        color: #306B8A;
+        font-weight: 300;
+    }
     
 
     .menu li a{
