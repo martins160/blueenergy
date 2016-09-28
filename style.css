@@ -2,6 +2,26 @@
 @import 'assets/fontastic/styles.css';
 @import 'assets/css/page.css';
 
+.separador{
+    background: #162943;
+    width: 100%;
+    min-height: 50px;
+    float: left;
+}
+
+.separador2{
+    width: 100%;
+    min-height: 90px;
+    float: left;
+}
+
+.separador3{
+    width: 100%;
+    min-height: 100px;
+    float: left;
+}
+
+
 
 *{
     box-sizing: border-box;
@@ -71,7 +91,7 @@ body{
 
 .logo img{
     width: 40%;
-    margin: 5px 0 0 0;
+    margin: -6px 0 0 10px;
 }
 
 .header .conteudo{
@@ -166,6 +186,7 @@ body{
 
 .row-icons{
     margin: 10px 0;
+    padding: 50px 0 0 0;
 }
 
 
@@ -252,11 +273,12 @@ body{
     
     
     margin: 0 0 70px 0;
+    padding: 60px 0 0 0;
 }
 
 .chamada-block p{
     font-size: 35px;
-    color: #FDD121;
+    color: #286090;
     font-weight: 800;
     margin: 5px 0 0 0;
 }
@@ -326,7 +348,7 @@ body{
 
 .line{
     width: 100%;
-    border-bottom: 1px solid rgba(48,107,138,0.3);    
+    /*border-bottom: 1px solid rgba(48,107,138,0.3);*/
     float: left;
     margin: 0 0 50px 0;
     position: relative;
@@ -371,16 +393,17 @@ body{
 
 
 .energia{
-    max-height: 600px;    
-    background: url(assets/images/temp/07.jpg) top center no-repeat fixed;
-    padding: 30px 0 0 0;
+    max-height: 600px;
+    padding: 30px 0 0 0 !important;
+    background: url(assets/images/temp/07.jpg) top center no-repeat fixed;    
 }
 
 .energia h3{
     text-align: center;
     font-size: 20px;
     font-weight: 800;
-    color: #162943;
+    color: #162943; 
+    padding: 20px 0 0 0 !important;
 }
 
 .energia h1{
@@ -390,6 +413,12 @@ body{
     color: #fff;
     background: rgba(15,62,83,0.8);
     padding: 10px 0;
+    cursor: pointer;
+}
+
+.energia h1:hover{
+    background: rgba(253,210,43,0.8);
+    transition: all 0.4s; 
 }
 
 .energ-sub{
@@ -457,6 +486,25 @@ body{
 }
 
 
+
+
+
+
+
+
+.sistemas{
+        padding: 40px 0 50px 0;
+    }
+    
+    .sistemas h1{
+         margin: 0 0 50px 0;
+        font-size: 23px;
+        font-weight: 800;
+    }
+    
+    .sistemas ul{
+        margin: 0 0 35px 0;
+    }
 
 
 
@@ -549,8 +597,18 @@ body{
 
 /*RESPONSIVO 480*************************************************************************************************************************/
 @media(min-width:480px){
+    
+    .logo img{
+        width: 40%;
+        margin: -6px 0 0 40px;
+    }
+
     .row-icons{
         margin: 40px 0;
+    }
+    
+    .icon-menu{
+        margin: 15px 15px 0 0;
     }
 
 
@@ -566,8 +624,12 @@ body{
     
     .trabalhos h1{        
         font-size: 35px;      
-        margin: -25px 0 0 0; 
+        margin: 15px 0 0 0; 
     } 
+    
+    .trab-block{
+        margin: 40px 0 0 0;
+    }
     
     .footer img{
         width: auto;       
@@ -595,18 +657,7 @@ body{
 
 
 /*********************************************************************************/
-@media(min-width:1024px){
-    
-    
-    
-    
-    
-    
-
-
-    
-    
-    
+@media(min-width:1024px){ 
     
     
     
@@ -636,8 +687,8 @@ body{
     }
     
     .logo img{
-        width: 100%;
-        margin: -18px 0 15px 0;
+        width: 70%;
+        margin: -18px 0 15px 40px;
     }
     
     .nav{
@@ -652,7 +703,7 @@ body{
     
     .menu{
         display: flex;
-        margin: -16px 40px 0 0 !important;
+        margin: -20px 50px 0 0 !important;
     }    
     
 
@@ -696,6 +747,7 @@ body{
         .energia h3{        
         font-size: 40px;
         color: #fff;
+        padding: 0px 0 0 0 !important;
     }
 
     .energia h1{         
@@ -712,12 +764,9 @@ body{
         padding: 60px 0;
     }
 
-    .energ-sub p{
-        
-        font-weight: 300;
-          
-        font-size: 40px;   
-       
+    .energ-sub p{        
+        font-weight: 300;          
+        font-size: 40px;        
         margin: auto;
     }
     
@@ -742,6 +791,20 @@ body{
         margin: 25px 0 0 0;
     }
     
+    
+    .sistemas{
+        padding: 80px 0 80px 0;
+    }
+    
+    .sistemas h1{
+         margin: 0 0 50px 0;
+    }
+    
+    .sistemas ul{
+        margin: 35px 0 0 0;
+    }
+    
+    
     .footer img{
         width: auto;       
     }
@@ -752,7 +815,7 @@ body{
     }
     
     .footer .copy{
-        margin: 50px 0 0 0;
+        margin: 30px 0 0 0;
     }
 
 }
