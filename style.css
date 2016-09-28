@@ -507,9 +507,12 @@ body{
     }
     
     .sistemas h1{
-         margin: 0 0 50px 0;
-        font-size: 23px;
+        margin: 0 0 50px 0;
+        font-size: 18px;
         font-weight: 800;
+        background: #0F3E53;
+        color: #fff;
+        padding: 20px 30px;
     }
     
     .sistemas ul{
@@ -821,6 +824,7 @@ body{
     
     .sistemas h1{
          margin: 0 0 50px 0;
+        font-size: 25px;
     }
     
     .sistemas ul{
