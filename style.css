@@ -4,21 +4,29 @@
 
 .separador{
     background: #162943;
-    width: auto;
+    width: 100%;
     min-height: 50px;
     float: left;
+    overflow: hidden;
 }
 
 .separador2{
-    width: auto;
+    width: 100%;
     min-height: 90px;
     float: left;
+    overflow: hidden;
 }
 
 .separador3{
-    width: auto;
+    width: 100%;
     min-height: 100px;
     float: left;
+    overflow: hidden;
+}
+
+
+.container{
+    max-width: 80%;
 }
 
 
@@ -532,7 +540,7 @@ body{
 
 .footer p{
     text-align: center;
-    font-size: 20px;
+    font-size: 15px;
     color: #FDD122;
     margin: 20px 0;
 }
